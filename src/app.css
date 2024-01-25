@@ -1,0 +1,59 @@
+html {
+  background: #0F1525;
+}
+
+main {
+  flex-shrink: 0;
+  background: #0F1525;
+}
+
+h1, h2 {
+  font-family: Sora;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  
+  background: var(--Gradient, linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  color: #FFF;
+  font-family: Sora;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+button {
+  display: flex;
+  padding: 24px 72px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  border-radius: 5px;
+  background: var(--Blue, #0B8DCD);
+  
+  /* Shadow */
+  box-shadow: 0px 4px 24px 0px rgba(75, 126, 255, 0.60), 4px 0px 24px 0px rgba(75, 126, 255, 0.24);
+
+  color: #FFF;
+  text-align: center;
+  font-family: Sora;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.blue {
+  background: var(--Gradient, linear-gradient(92deg, #00a3ff 23.7%, #00fff0 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
